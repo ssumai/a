@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COACHTECH</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gorditas&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gorditas&family=Noto+Sans+JP:wght@900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    
+    <p>COACHTECH</p>
+    <p>表示されます</p>
+    <!-- <p>表示されません</p> -->
+    <h1>h1タグを表しています</h1>
+    <p>pタグを表しています</p>
+
+    <p>
+        〒123-4567<br>
+        東京都渋谷区神宮前
+    </p>
+
+    <h1>挑戦</h1>
+    <h2>本気にチャレンジしたいことに</h2>
+    <h2>本気で競う相手と</h2>
+    <h2>チャレンジできる世界を作るために</h2>
+    <p>エンジニアやプログラマー、フリーランスなど、<br>自由な働きかたを目指す、人生を変えたい人材が増えています。</p>
+    <p>でも、本当に「自由だ」と<br>言い切ることができるでしょうか。</p>
+    <p>日々の仕事に追われながら、<br>自分がやりたいことを見失ってしまってはいないでしょうか。</p>
+
+    <em>強調タグ</em>
+    <strong>重要性タグ</strong>
+
+    <ul>
+        <li>順不同リスト</li>
+        <li>順不同リスト</li>
+        <li>順不同リスト</li>
+    </ul>
+    <ol>
+        <li>番号順リスト</li>
+        <li>番号順リスト</li>
+        <li>番号順リスト</li>
+    </ol>
+
+    <dl>
+        <dt>ソフトドリンク</dt>
+        <dd>一般の飲料</dd>
+        <dt>お酒</dt>
+        <dd>アルコール飲料</dd>
+    </dl>
+
+    <a href="detail.html">詳しく見る</a>
+    <a href="https://estra.jp/" target="_blank">株式会社estra</a>
+
+    <a href="./detail.html">detail.htmlへ</a>
+    <a href="company/company.html">company.htmlへ</a>
+
+    <a href="../coachtech.html">coachtech.htmlへ</a>
+
+    <!-- 問題 -->
+    <a href="./coachtech/category/category/html">category.htmlへ</a>
+
+    <img src="img/coachtech 2.png" alt="coachtech" width="240" height="40">
+
+    <div>
+        <video width="400px" height="200px" src="video/video.mp4" controls></video>
+        <video src="video/video.mp4" autoplay muted></video>
+        <video src="video/video.mp4" loop autoplay muted></video>
+    </div>
+
+    <table border="1">
+        <tr>
+            <th colspan="2">名前</th>
+            <th>年齢</th>
+        </tr>
+        <tr>
+            <td>佐藤</td>
+            <td>太郎</td>
+            <td>39</td>
+        </tr>
+        <tr>
+            <td>田中</td>
+            <td>次郎</td>
+            <td>20</td>
+        </tr>
+    </table>
+
+    <table border="1">
+        <tr>
+            <th rowspan="3">フルーツ</th>
+            <td>りんご</td>
+        </tr>
+        <tr>
+            <td>みかん</td>
+        </tr>
+        <tr>
+            <td>さくらんぼ</td>
+        </tr>
+    </table>
+
+    <!-- 問題 -->
+    <table  border="1">
+        <tr>
+            <td></td>
+            <th colspan="3">見出し</th>
+        </tr>
+        <tr>
+            <td rowspan="2">見出し2</td>
+            <td>データ1</td>
+            <td>データ2</td>
+            <td>データ3</td>
+        </tr>
+        <tr>
+            <td>データ4</td>
+            <td>データ5</td>
+            <td>データ6</td>
+        </tr>
+    </table>
+
+    <form action="detail.html" method="get">
+        <input type="text">
+        <!-- text→一行分 -->
+        <textarea name="textarea" id="" cols="30" rows="3"></textarea>
+    </form>
+
+    <form action="detail.html">
+        <select name="select" id="">
+            <option value="太郎">太郎</option>
+            <option value="次郎">次郎</option>
+            <option value="三郎">三郎</option>
+        </select>
+    </form>
+
+    <form action="detail.html" method="get">
+        <label for="name">お名前：</label>
+        <input type="text" name="name" id="name">
+    </form>
+
+    <p>cssテスト</p>
+    <div class="blue">テキスト1</div>
+    <div class="blue">テキスト2</div>
+    <div class="blue">テキスト3</div>
+
+    <div>
+        <p class="number__parent">1</p>
+        <div>
+            <p class="number__child">1-1</p>
+            <p class="number__child">1-2</p>
+            <p class="number__child">1-3</p>
+        </div>
+        <p class="number__parent">2</p>
+        <div>
+            <p class="number__child">2-1</p>
+            <p class="number__child">2-2</p>
+            <p class="number__child">2-3</p>
+        </div>
+        <p class="number__parent">3</p>
+        <div>
+            <p class="number__child">3-1</p>
+            <p class="number__child">3-2</p>
+            <p class="number__child">3-3</p>
+        </div>
+        <p class="number__parent">4</p>
+        <div>
+            <p class="number__child">4-1</p>
+            <p class="number__child">4-2</p>
+            <p class="number__child">4-3</p>
+        </div>
+        <p class="number__parent">5</p>
+        <div>
+            <p class="number__child">5-1</p>
+            <p class="number__child">5-2</p>
+            <p class="number__child">5-3</p>
+        </div>
+        <p class="number__parent">6</p>
+        <div>
+            <p class="number__child">6-1</p>
+            <p class="number__child">6-2</p>
+            <p class="number__child">6-3</p>
+        </div>
+    </div>
+
+    <p class="text">文字の太さ</p>
+    <p class="text--style">文字を斜めにする</p>
+    <p class="text--style2">文字に線をつける</p>
+
+    <h2 class="css-test-text">Sample text</h2>
+
+    <p>
+        <span>中央揃え</span>
+    </p>
+
+    <div class="gradation__bg"></div>
+
+    <div>背景画像</div>
+
+    <div class="bg"></div>
+
+    <div class="width">横幅</div>
+
+    <div class="parent">
+        親要素
+        <div class="child">
+            子要素
+        </div>
+    </div>
+
+    <div class="parent2">
+        <div class="child2">
+            %は親要素から３０％の幅になる
+        </div>
+    </div>
+    <div class="viewport">
+        ブラウザ幅に対して50%になる
+    </div>
+
+    <img src="img/mv.png" alt="mv">
+
+    <div class="content">
+        <div class="red-box"></div>
+        <div class="blue-box"></div>
+    </div>
+
+    <h1>余白</h1>
+    <p>margin</p>
+
+    <div class="boxsizing content-box"></div>
+    <div class="boxsizing border-box"></div>
+
+    <div class="test-redbox"></div>
+
+    <p class="border">枠線</p>
+
+    <div class="radius"></div>
+    <div class="circle"></div>
+
+    <div class="test-radius"></div>
+
+    <div class="shadow"></div>
+    <p class="text-shadow">文字に対する影</p>
+
+    <div class="test-shadow"></div>
+
+    <!-- css練習問題1 -->
+    <div class="pra-botton">
+        <a href="#">詳しくみる</a>
+    </div>
+
+    <!-- css練習問題2 -->
+    <div class="card">
+        <div class="card__img">
+            <img src="img/elephant.png" alt="">
+        </div>
+        <div class="card__content">
+            <h2 class="card__content-ttl">カードのタイトルがここには入ります。</h2>
+            <p class="card__content-tag">#プログラミング</p>
+            <p class="card__content-tag card__content-tag--red">#スクール</p>
+        </div>
+    </div>
+
+    <!-- css練習問題3 -->
+    <div class="m-card">
+        <div class="m-card__img">
+            <img src="img/card.jpg" alt="">
+        </div>
+        <div class="m-card__content">
+            <p class="m-card__content-ttl">カテゴリー</p>
+            <h4>今日の朝ごはんは卵と肉を合わせたバランスの良いメニューです。</h4>
+            <div class="m-card__content-tag">
+                <p class="m-card__content-tag--green">#朝ごはん</p>
+                <p class="m-card__content-tag--date">2021/01/01</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

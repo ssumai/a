@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.number__child {
+    padding-left: 40px;
+}
+
+.number__parent:nth-of-type(3n) {
+    color: red;
+}
+
+.number__child:nth-of-type(n+2) {
+    color: blue;
+}
+
+.text {
+    font-weight: bold;
+}
+
+.text--style {
+    font-style: italic;
+}
+
+.text--style2 {
+    text-decoration: underline;
+}
+
+.css-test-text {
+        font-family: 'Noto Sans JP', serif;
+}
+
+
+
+.gradation__bg {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(90deg, #ff34ff,#8646ff);
+}
+
+body {
+    background-image: url(../img/red.jpg);
+    background-size: 300px 100px;
+    background-repeat: no-repeat;
+}
+
+.bg {
+    background: url(../img/firstview.jpg) no-repeat bottom;
+    background-size: cover;
+    /* 高さを指定 */
+    height: 700px;
+}
+
+.width {
+    background: #ff0000;
+    width: 300px;
+}
+
+.parent {
+    width: 50vw;
+    height: 300px;
+    background-color: red;
+}
+
+.child {
+    width: 25%;
+    height: 50%;
+    background-color: yellow;
+}
+
+.parent2 {
+    width: 300px;
+    height: 300px;
+    background-color: rebeccapurple;
+}
+
+.child2 {
+    width: 30%;
+    height: 30%;
+    color: #fff;
+    background-color: aqua;
+}
+
+.viewport {
+    width: 50vw;
+    height: 50vh;
+    background-color: yellow;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    width: 500px;
+    height: 500px;
+}
+
+.red-box {
+    width: 100%;
+    height: 50%;
+    background-color: red;
+}
+
+.blue-box {
+    width: 100%;
+    height: 50%;
+    background-color: blue;
+}
+
+h1 {
+    background: #ff0000;
+    margin: 50px 0;
+    padding: 50px;
+}
+
+
+
+.boxsizing {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    padding: 30px;
+    border: 20px solid blue;
+    margin: 100px auto 0;
+}
+
+.content-box {
+    box-sizing: content-box;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.test-redbox {
+   width: 400px;
+   height: 200px;
+   background: red;
+   margin: 50px auto;
+}
+
+.border {
+    border: solid 2px #ff0000;
+}
+
+.radius {
+    width: 200px;
+    height: 200px;
+    background: #ff0000;
+    border-radius: 30px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background: #ff0000;
+    border-radius: 50%;
+}
+
+.test-radius {
+    width: 200px;
+    height: 200px;
+    background: red;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+.shadow {
+    width: 300px;
+    height: 300px;
+    background: rebeccapurple;
+    box-shadow: 5px 5px 2px #8646ff;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 4px #000;
+}
+
+.test-shadow {
+    width: 200px;
+    height: 200px;
+    background: #ff0000;
+    box-shadow: 10px 10px 0 #000;
+    margin: 20px auto;
+}
+
+.pra-botton {
+    width: 200px;
+    padding: 10px 0;
+    background: linear-gradient(90deg,#ff5800,
+        #8b00be);
+    border-radius: 30px;
+    margin-top: 100px auto 0;
+    box-shadow: 0 5px 0 rgba(255,0,0,0.2);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.card {
+    width: 760px;
+    margin: 100px auto;
+    box-shadow: 0 0 6px #eeeeee;
+    display: flex;
+}
+.card__img {
+    width: 40%;
+}
+.card__img img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.card__content {
+    padding: 15px;
+}
+
+.card__content-ttl {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.card__content-tag {
+    font-size: 14px;
+    display: inline-block;
+}
+
+.card__content-tag--red {
+    color: red;
+}
+
+.m-card {
+    width: 360px;
+    margin: 100px auto 0;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.m-card__img {
+    height: 60%;
+}
+.m-card__img img {
+    width: 100%;
+}
+
+.m-card__content {
+    margin: 15px;
+}
+
+.m-card__content-ttl {
+    font-size: 14px;
+    color: #fff;
+    background: #088;
+    margin: 15px 0 20px 0;
+    padding: 8px;
+    display: inline-block;
+}
+
+.m-card__content h4 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.m-card__content-tag {
+    padding-bottom: 15px;
+    font-size: 14px;
+    text-align: right;
+
+}
+
+.m-card__content-tag--green {
+    color: #088;
+    display: inline-block;
+}
+
+.m-card__content-tag--date {
+    color: #888;
+    display: inline-block;
+    margin-left: 20px;
+}
+
